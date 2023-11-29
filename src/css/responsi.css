@@ -1,0 +1,103 @@
+@media (max-width: 1050px) {
+
+    #face {
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        border: 0px;
+        justify-content: space-evenly;
+    }
+
+    header button:not(.a-menu) {
+        display: none;
+    }
+
+    #section4 {
+        height: 480px;
+    }
+
+    #section5 {
+        background-position: center;
+        height: 480px;
+    }
+
+    #section5 .content {gap: 10%; flex-direction: column;}
+
+    #section5 i {display: none;}
+
+    #section5 div.text::after {
+        content: "";
+        background-image: url("../assets/section5-circle.jpeg");
+        background-size: cover;
+        display: block;
+        position: absolute;
+        top: -10px;
+        left: 75%;
+        width: 100px;
+        height: 100px;
+    }
+
+    #section5 img {
+        width: 140px;
+        display: block;
+    }
+
+    #section6 div.image {
+        width: 340px;
+        height: 340px;
+        display: block;
+        border-radius: 100%;
+    }
+
+    #section6 div.image img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .f38 {font-size: 3.0rem;}
+    .f36 {font-size: 2.8rem;}
+}
+
+
+@media (max-width: 920px) {
+
+    #face {
+        background-image: url("../assets/banner-responsivo.jpeg");
+        background-size: cover;
+        background-position: top;
+        height: 920px;
+    }
+
+    header {
+        /* padding: 0px 50px; */
+        justify-content: space-around;
+        gap: 450px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    main {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-content: flex-end;
+        align-items:baseline;
+        height: 100%;
+        padding: 50% 0px 0px 0px;
+        margin: 0px;
+    }
+
+    main div {
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        padding: 15% 25%;
+        text-align-last: center;
+    }
+
+
+}
